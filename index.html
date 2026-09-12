@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="KARAN EDITS® — Premium video editing studio and client portal">
+<title>KARAN EDITS® — Premium Editing Studio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="nav glass"><div class="logo">KARAN EDITS®</div><div class="links"><a href="#work">Work</a><a href="#services">Services</a><a href="#about">About</a><a href="#portal">Portal</a><a href="#contact">Contact</a></div><button class="btn" onclick="openModal()">Client Login</button></nav>
+
+<section class="hero">
+<div><div class="eyebrow">Video Editor · Motion · Creative</div><h1>RAW FOOTAGE.<br>FINAL IMPACT.</h1><p>I turn raw footage into sharp, high-retention content for creators, artists and brands — with cinematic pacing, motion and sound.</p><div class="actions"><a class="btn" href="#work">View My Work</a><a class="btn ghost" href="#contact">Hire Me</a></div></div>
+<div class="reel glass"><button class="play" onclick="alert('Connect your showreel video here.')">▶</button><span>SHOWREEL · 2026</span></div>
+</section>
+
+<section class="section" id="work"><div class="eyebrow">Selected work</div><h2>Work that moves.</h2><div class="grid">
+<div class="card glass"><div class="thumb">MUSIC VIDEO · CINEMATIC</div><h3>Artist Visual</h3><p class="muted">Color, pacing, transitions & sound design.</p></div>
+<div class="card glass"><div class="thumb">SHORT FORM · REELS</div><h3>High Retention Reels</h3><p class="muted">Fast cuts, captions and motion built for social.</p></div>
+<div class="card glass"><div class="thumb">YOUTUBE · LONG FORM</div><h3>Creator Series</h3><p class="muted">Story-driven edits with clean visual rhythm.</p></div>
+</div></section>
+
+<section class="section services" id="services"><div class="eyebrow">What I do</div><h2>Services.</h2><div class="grid">
+<div class="card glass"><div class="icon">◈</div><h3>Short-Form Editing</h3><p class="muted">Reels, Shorts, hooks, captions and retention-focused pacing.</p></div>
+<div class="card glass"><div class="icon">▣</div><h3>Long-Form Editing</h3><p class="muted">YouTube, podcasts, interviews and storytelling edits.</p></div>
+<div class="card glass"><div class="icon">✦</div><h3>Music Video Editing</h3><p class="muted">Rhythm-led cuts, cinematic treatment and visual identity.</p></div>
+<div class="card glass"><div class="icon">◇</div><h3>Motion Graphics</h3><p class="muted">Titles, typography, transitions and custom animation.</p></div>
+<div class="card glass"><div class="icon">◌</div><h3>Color Grading</h3><p class="muted">Clean, cinematic and mood-driven color finishing.</p></div>
+<div class="card glass"><div class="icon">⌁</div><h3>Sound Design</h3><p class="muted">SFX, music balancing and immersive audio polish.</p></div>
+</div></section>
+
+<section class="section" id="about"><div class="about"><div class="profile glass"><b>YOUR PROFILE PHOTO</b></div><div><div class="eyebrow">About KARAN</div><h2>Editing is more than cutting clips.</h2><p class="muted">I build visual stories that hold attention. Every cut, sound, transition and frame has a purpose — from the first hook to the final beat.</p><p class="muted">Professional workflow focused on speed, communication and polished delivery.</p><div class="tools"><span class="tool glass">Premiere Pro</span><span class="tool glass">After Effects</span><span class="tool glass">DaVinci Resolve</span><span class="tool glass">Photoshop</span></div></div></div></section>
+
+<section class="section pricing"><div class="eyebrow">Packages</div><h2>Simple pricing.</h2><div class="grid">
+<div class="card glass"><h3>Short Form</h3><div class="price">Custom</div><ul class="list"><li>✓ Reels / Shorts</li><li>✓ Captions & hooks</li><li>✓ Motion elements</li></ul><br><a class="btn" href="#contact">Get Started</a></div>
+<div class="card glass"><h3>YouTube</h3><div class="price">Custom</div><ul class="list"><li>✓ Long-form edit</li><li>✓ Sound & color</li><li>✓ Thumbnail-ready frames</li></ul><br><a class="btn" href="#contact">Get Started</a></div>
+<div class="card glass"><h3>Premium</h3><div class="price">Custom</div><ul class="list"><li>✓ Creative direction</li><li>✓ Motion graphics</li><li>✓ Priority workflow</li></ul><br><a class="btn" href="#contact">Get Started</a></div>
+</div></section>
+
+<section class="section" id="portal"><div class="eyebrow">Private workspace</div><h2>Client Portal.</h2><div class="portal"><aside class="sidebar glass"><button class="active">Overview</button><button>Projects</button><button>Messages</button><button>Files</button><button>Revisions</button><button>Payments</button><button>Notifications</button><button>Profile</button></aside>
+<div class="dash glass"><div class="stats"><div class="stat glass"><small>Active Projects</small><strong>3</strong></div><div class="stat glass"><small>Awaiting Review</small><strong>1</strong></div><div class="stat glass"><small>Files</small><strong>18</strong></div><div class="stat glass"><small>Next Deadline</small><strong>2d</strong></div></div>
+<h3>Projects</h3><div class="project glass"><span><b>Artist Reel Pack</b><br><small class="muted">V2 · 6 reels · ₹8,000</small></span><span class="pill">IN EDITING</span></div><div class="project glass"><span><b>YouTube Episode #14</b><br><small class="muted">V1 · 12:40 · ₹6,000</small></span><span class="pill">CLIENT REVIEW</span></div>
+<h3 style="margin-top:28px">Messages & Files</h3><div class="chat"><div><div class="messages glass" id="messages"><div class="msg">Hey! I uploaded the raw footage for the new reel.</div><div class="msg mine">Perfect. I'll start editing today.</div><div class="msg">Can you make the first 3 seconds more punchy?</div></div><div class="composer"><input id="chatInput" placeholder="Write a message…"><button class="btn" onclick="sendMsg()">Send</button></div></div><div class="files glass"><b>Recent Files</b><div class="file">📹 Raw_Footage.zip</div><div class="file">🎵 Track_Final.wav</div><div class="file">🎬 Reel_V2.mp4</div><div class="file">🖼️ Reference.jpg</div><button class="btn ghost" style="margin-top:12px;width:100%" onclick="alert('File upload connected in the full backend.')">Upload File</button></div></div></div></div></section>
+
+<section class="section" id="contact"><div class="contact"><div><div class="eyebrow">Start a project</div><h2>Let's make something worth watching.</h2><p class="muted">Tell me what you're working on and I'll get back to you.</p></div><form class="form" onsubmit="event.preventDefault();alert('Project request submitted! Connect this form to your backend/email service.');"><input placeholder="Your name" required><input type="email" placeholder="Email" required><input placeholder="Project type"><input placeholder="Budget"><input placeholder="Deadline"><textarea placeholder="Project details"></textarea><input type="file"><button class="btn">Send Project Request</button></form></div></section>
+<footer class="footer"><span>© 2026 KARAN EDITS®</span><span>Instagram · Email · WhatsApp</span></footer>
+
+<div class="modal" id="modal"><div class="modalbox glass"><button class="close" onclick="closeModal()">×</button><div class="eyebrow">Secure area</div><h2>Client Login</h2><form class="form" onsubmit="event.preventDefault();closeModal();document.getElementById('portal').scrollIntoView();"><input type="email" placeholder="Email" required><input type="password" placeholder="Password" required><label style="color:#999;font-size:12px"><input type="checkbox" style="width:auto"> Remember me</label><button class="btn">Login</button><button type="button" class="btn ghost" onclick="alert('Password reset link would be sent here.')">Forgot password?</button></form></div></div>
+<script src="script.js"></script>
+</body>
+</html>
